@@ -119,8 +119,4 @@ terraform destroy
 
 # Congratulations
 
-For more content like this follow me on: 
-
-* [Linkedin](https://www.linkedin.com/in/otabek-abdurakhmonov-46772b213/)
-* [YouTube](https://www.youtube.com/channel/UCPPIjmkbaopLMucC2fMs4fg)
-* [GitHub](https://github.com/otabek024)
+You have successfully deployed your app on Google Cloud Run
