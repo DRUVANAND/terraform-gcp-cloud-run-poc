@@ -2,10 +2,15 @@ terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = "4.44.1"
+      version = "4.58.0"
     }
   }
 }
+backend "gcs" {
+  bucket  = "your-backend-bucket"
+  prefix  = "terraform-cloud-run"
+}
+
 
 provider "google" {
   project     = "your-project-id"
