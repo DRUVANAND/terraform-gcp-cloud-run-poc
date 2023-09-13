@@ -5,12 +5,11 @@ terraform {
       version = "4.58.0"
     }
   }
-}
 backend "gcs" {
   bucket  = "cloudrun-demo-backend-bucket"
   prefix  = "terraform-cloud-run"
 }
-
+}
 
 provider "google" {
   project     = "engineer-cloud-nprod"
