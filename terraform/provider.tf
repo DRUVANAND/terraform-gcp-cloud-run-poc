@@ -7,13 +7,13 @@ terraform {
   }
 }
 backend "gcs" {
-  bucket  = "your-backend-bucket"
+  bucket  = "cloudrun-demo-backend-bucket"
   prefix  = "terraform-cloud-run"
 }
 
 
 provider "google" {
-  project     = "your-project-id"
+  project     = "engineer-cloud-nprod"
   region      = "us-central1"
   zone        = "us-central1-c"
 }
