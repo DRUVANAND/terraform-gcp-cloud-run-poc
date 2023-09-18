@@ -12,7 +12,7 @@ backend "gcs" {
 }
 
 provider "google" {
-  project     = "engineer-cloud-nprod"
+  project     = "your-project"
   region      = "us-central1"
   zone        = "us-central1-c"
 }
